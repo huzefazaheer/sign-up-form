@@ -15,6 +15,7 @@ a {
 }
 
 button {
+  margin-top: 2rem;
   background-color: coral;
   color: white;
   border-radius: 4px;
@@ -32,6 +33,28 @@ button:active {
   color: whitesmoke;
 }
 
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+img {
+  display: inline;
+  width: 120px;
+  height: 150px;
+  text-align: center;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.212);
+  width: 100%;
+  padding: 1rem 0;
+}
+
 .content {
   display: flex;
   width: 100%;
@@ -44,8 +67,8 @@ button:active {
   height: 100vh;
   background-color: coral;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -64,5 +87,6 @@ button:active {
 .logo p {
   color: white;
   font-size: 4rem;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
