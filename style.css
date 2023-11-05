@@ -37,6 +37,11 @@ form {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  gap: 2rem;
+}
+
+.forminput {
+  display: block;
 }
 
 img {
@@ -80,8 +85,12 @@ img {
 
 .signupform {
   background-color: white;
-  padding: 2rem;
+  padding: 1rem 2rem;
   border-radius: 4px;
+}
+
+.signupform p {
+  font-size: large;
 }
 
 .logo p {
