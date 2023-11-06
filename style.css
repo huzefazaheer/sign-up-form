@@ -6,6 +6,7 @@ body {
 
 p.big {
   font-size: 1.3rem;
+  max-width: 650px;
 }
 
 a {
@@ -37,17 +38,32 @@ form {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap: 2rem;
+  gap: 1.5rem;
+  max-width: 650px;
+}
+
+input {
+  min-width: 220px;
+  min-height: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input:invalid {
 }
 
 .forminput {
-  display: block;
+  display: flex;
+  margin-right: 4rem;
+  gap: 2px;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
   display: inline;
-  width: 120px;
-  height: 150px;
+  width: 10vh;
+  height: 12vh;
   text-align: center;
 }
 
@@ -62,7 +78,8 @@ img {
 
 .content {
   display: flex;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: whitesmoke;
 }
 
@@ -78,15 +95,15 @@ img {
 }
 
 .main {
-  flex-basis: 44%;
-  height: 100vh;
+  flex-basis: 66%;
   padding: 8rem 4rem;
 }
 
 .signupform {
   background-color: white;
-  padding: 1rem 2rem;
-  border-radius: 4px;
+  padding: 2rem 4rem;
+  margin-left: -4rem;
+  width: 100%;
 }
 
 .signupform p {
